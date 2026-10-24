@@ -7,7 +7,8 @@ Academic project (B.Tech IT, Big Data). Spec = uploaded brief. Stack substitutio
 
 ## Phase 1 — Structure, database, seed, backend foundation
 - [x] Enable Lovable Cloud + email auth
-- [~] Database migration: profiles, user_roles, has_role, departments, patients, admissions, beds, staff, equipment, patient_visits, operational_expenses, department_budgets, app_settings, uploaded_datasets, processing_jobs, notifications + GRANTS + RLS
+- [x] Remix setup: confirm copied migrations cleared and empty migration set rescaffolded (journal empty, verified)
+- [x] Database migration: profiles, user_roles, has_role, departments, patients, admissions, beds, staff, equipment, patient_visits, operational_expenses, department_budgets, app_settings, uploaded_datasets, processing_jobs, notifications + GRANTS + RLS
 - [ ] Seed: 8 departments, ~240 beds, 600+ patients, ~800 admissions (180 days), ~120 staff, ~90 equipment, ~1500 visits with waiting times, 12 months expenses + budgets, thresholds in app_settings
 - [ ] Auth: /auth page (sign in + demo credentials), managed _authenticated gate, profile/role fetch, onAuthStateChange wiring
 - [ ] Demo admin account creation (server-side, idempotent)
